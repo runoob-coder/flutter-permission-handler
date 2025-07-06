@@ -102,8 +102,8 @@ class Permission {
   /// - Devices running Android 13 (API level 33) and above: Should use [Permission.photos].
   ///
   /// EXAMPLE: in Manifest:
-  /// &lt;uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32"/&gt;
-  /// &lt;uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/&gt;
+  /// <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>;
+  /// <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>;
   ///
   /// In Flutter to check the status:
   ///
